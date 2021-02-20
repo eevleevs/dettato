@@ -20,7 +20,7 @@
                 width: 6em;
             }
         </style>
-        <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+        <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
     </head>
     <body>
         <?php
