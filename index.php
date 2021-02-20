@@ -40,7 +40,7 @@
             var attempt = 1;
 
             function check(input){
-                if (input == "<?php echo $matches[1]; ?>") {
+                if (input.toLowerCase() == "<?php echo $matches[1]; ?>".toLowerCase()) {
                     message.style.color = '#0c0';
                     message.innerHTML = 'giusto';
                     setTimeout(function(){
